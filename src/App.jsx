@@ -33,7 +33,13 @@ function App() {
         setSearchMovie={setSearchMovie}
         fetchMovieData={fetchMovieData}
       />
-      <MovieCard allMovieData={allMovieData} loading={loading} />
+      {allMovieData && allMovieData.length > 0 ? (
+        <MovieCard allMovieData={allMovieData} loading={loading} />
+      ) : (
+        <h1 style={{ textAlign: "center", marginTop: "100px" }}>
+          Search Movies
+        </h1>
+      )}
     </div>
   );
 }
