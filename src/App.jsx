@@ -36,7 +36,7 @@ function App() {
       {allMovieData && allMovieData.length > 0 ? (
         <MovieCard allMovieData={allMovieData} loading={loading} />
       ) : (
-        <h1 style={{ textAlign: "center", marginTop: "100px" }}>
+        <h1 style={{ textAlign: "center", marginTop: "100px", opacity: "0.8" }}>
           Search Movies
         </h1>
       )}
