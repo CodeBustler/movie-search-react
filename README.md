@@ -12,7 +12,7 @@ A React-based movie search application that utilizes the OMDB API for fetching m
 
 ## Project Live 🔗
 
-https://codebustler.github.io/movie-search-react-app/
+https://movie-search-react-cb.netlify.app/
 
 ## Features
 
